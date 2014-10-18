@@ -1,3 +1,3 @@
 This is a simplest Render Engine 
-Created by Jimm 
-Oct 16 .2014
+				Created by Jimmy 
+					Oct 16 .2014
