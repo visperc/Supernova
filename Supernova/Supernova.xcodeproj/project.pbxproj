@@ -12,7 +12,7 @@
 		BF1E892F19F4176B00B0B687 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1E892E19F4176B00B0B687 /* Images.xcassets */; };
 		BF1E893219F4176B00B0B687 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1E893019F4176B00B0B687 /* MainMenu.xib */; };
 		BF1E893E19F4176B00B0B687 /* SupernovaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E893D19F4176B00B0B687 /* SupernovaTests.m */; };
-		BF1E895319F426EF00B0B687 /* OSXOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E895219F426EF00B0B687 /* OSXOpenGLView.m */; };
+		BF1E895719F42A6600B0B687 /* OSXOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E895619F42A6600B0B687 /* OSXOpenGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,8 @@
 		BF1E893719F4176B00B0B687 /* SupernovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupernovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1E893C19F4176B00B0B687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF1E893D19F4176B00B0B687 /* SupernovaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupernovaTests.m; sourceTree = "<group>"; };
-		BF1E895119F426BF00B0B687 /* OSXOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSXOpenGLView.h; sourceTree = "<group>"; };
-		BF1E895219F426EF00B0B687 /* OSXOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSXOpenGLView.m; sourceTree = "<group>"; };
+		BF1E895519F42A6600B0B687 /* OSXOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXOpenGLView.h; path = View/OSXOpenGLView.h; sourceTree = "<group>"; };
+		BF1E895619F42A6600B0B687 /* OSXOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXOpenGLView.m; path = View/OSXOpenGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +79,12 @@
 		BF1E892619F4176B00B0B687 /* Supernova */ = {
 			isa = PBXGroup;
 			children = (
+				BF1E895419F429C400B0B687 /* View */,
 				BF1E892B19F4176B00B0B687 /* AppDelegate.h */,
 				BF1E892C19F4176B00B0B687 /* AppDelegate.m */,
 				BF1E892E19F4176B00B0B687 /* Images.xcassets */,
 				BF1E893019F4176B00B0B687 /* MainMenu.xib */,
 				BF1E892719F4176B00B0B687 /* Supporting Files */,
-				BF1E895119F426BF00B0B687 /* OSXOpenGLView.h */,
-				BF1E895219F426EF00B0B687 /* OSXOpenGLView.m */,
 			);
 			path = Supernova;
 			sourceTree = "<group>";
@@ -114,6 +113,15 @@
 				BF1E893C19F4176B00B0B687 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF1E895419F429C400B0B687 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E895519F42A6600B0B687 /* OSXOpenGLView.h */,
+				BF1E895619F42A6600B0B687 /* OSXOpenGLView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1E892D19F4176B00B0B687 /* AppDelegate.m in Sources */,
-				BF1E895319F426EF00B0B687 /* OSXOpenGLView.m in Sources */,
+				BF1E895719F42A6600B0B687 /* OSXOpenGLView.m in Sources */,
 				BF1E892A19F4176B00B0B687 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +414,7 @@
 				BF1E894319F4176B00B0B687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF1E894419F4176B00B0B687 /* Build configuration list for PBXNativeTarget "SupernovaTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +423,7 @@
 				BF1E894619F4176B00B0B687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
