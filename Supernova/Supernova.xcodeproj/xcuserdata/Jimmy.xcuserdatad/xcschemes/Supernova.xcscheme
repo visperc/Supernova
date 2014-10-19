@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF8652B319F35C75006A0181"
-               BuildableName = "Supernova"
+               BlueprintIdentifier = "BF1E892319F4176B00B0B687"
+               BuildableName = "Supernova.app"
                BlueprintName = "Supernova"
+               ReferencedContainer = "container:Supernova.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF1E893619F4176B00B0B687"
+               BuildableName = "SupernovaTests.xctest"
+               BlueprintName = "SupernovaTests"
                ReferencedContainer = "container:Supernova.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,12 +42,22 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF1E893619F4176B00B0B687"
+               BuildableName = "SupernovaTests.xctest"
+               BlueprintName = "SupernovaTests"
+               ReferencedContainer = "container:Supernova.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF8652B319F35C75006A0181"
-            BuildableName = "Supernova"
+            BlueprintIdentifier = "BF1E892319F4176B00B0B687"
+            BuildableName = "Supernova.app"
             BlueprintName = "Supernova"
             ReferencedContainer = "container:Supernova.xcodeproj">
          </BuildableReference>
@@ -51,8 +75,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF8652B319F35C75006A0181"
-            BuildableName = "Supernova"
+            BlueprintIdentifier = "BF1E892319F4176B00B0B687"
+            BuildableName = "Supernova.app"
             BlueprintName = "Supernova"
             ReferencedContainer = "container:Supernova.xcodeproj">
          </BuildableReference>
@@ -69,8 +93,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF8652B319F35C75006A0181"
-            BuildableName = "Supernova"
+            BlueprintIdentifier = "BF1E892319F4176B00B0B687"
+            BuildableName = "Supernova.app"
             BlueprintName = "Supernova"
             ReferencedContainer = "container:Supernova.xcodeproj">
          </BuildableReference>
