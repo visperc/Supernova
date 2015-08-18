@@ -7,48 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF1E892A19F4176B00B0B687 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E892919F4176B00B0B687 /* main.m */; };
-		BF1E892D19F4176B00B0B687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E892C19F4176B00B0B687 /* AppDelegate.m */; };
-		BF1E892F19F4176B00B0B687 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1E892E19F4176B00B0B687 /* Images.xcassets */; };
-		BF1E893219F4176B00B0B687 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1E893019F4176B00B0B687 /* MainMenu.xib */; };
-		BF1E893E19F4176B00B0B687 /* SupernovaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E893D19F4176B00B0B687 /* SupernovaTests.m */; };
-		BF1E895719F42A6600B0B687 /* OSXOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E895619F42A6600B0B687 /* OSXOpenGLView.m */; };
+		BF8112D21B823E950005FA4D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8112D11B823E950005FA4D /* main.cpp */; };
+		BF8112DF1B8240960005FA4D /* nedmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = BF8112DC1B8240960005FA4D /* nedmalloc.c */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BF1E893819F4176B00B0B687 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF1E891C19F4176B00B0B687 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF1E892319F4176B00B0B687;
-			remoteInfo = Supernova;
+/* Begin PBXCopyFilesBuildPhase section */
+		BF8112CC1B823E950005FA4D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF1E892419F4176B00B0B687 /* Supernova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supernova.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF1E892819F4176B00B0B687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF1E892919F4176B00B0B687 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF1E892B19F4176B00B0B687 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BF1E892C19F4176B00B0B687 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF1E892E19F4176B00B0B687 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BF1E893119F4176B00B0B687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		BF1E893719F4176B00B0B687 /* SupernovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupernovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF1E893C19F4176B00B0B687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF1E893D19F4176B00B0B687 /* SupernovaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupernovaTests.m; sourceTree = "<group>"; };
-		BF1E895519F42A6600B0B687 /* OSXOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXOpenGLView.h; path = View/OSXOpenGLView.h; sourceTree = "<group>"; };
-		BF1E895619F42A6600B0B687 /* OSXOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXOpenGLView.m; path = View/OSXOpenGLView.m; sourceTree = "<group>"; };
+		BF8112CE1B823E950005FA4D /* Supernova */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Supernova; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8112D11B823E950005FA4D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF8112DA1B8240960005FA4D /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		BF8112DB1B8240960005FA4D /* malloc.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = malloc.c.h; sourceTree = "<group>"; };
+		BF8112DC1B8240960005FA4D /* nedmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nedmalloc.c; sourceTree = "<group>"; };
+		BF8112DD1B8240960005FA4D /* nedmalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nedmalloc.h; sourceTree = "<group>"; };
+		BF8112DE1B8240960005FA4D /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		BF8112E21B8241F80005FA4D /* SupernovaMemoryNedPooling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupernovaMemoryNedPooling.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BF1E892119F4176B00B0B687 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF1E893419F4176B00B0B687 /* Frameworks */ = {
+		BF8112CB1B823E950005FA4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,82 +45,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF1E891B19F4176B00B0B687 = {
+		BF8112C51B823E950005FA4D = {
 			isa = PBXGroup;
 			children = (
-				BF1E892619F4176B00B0B687 /* Supernova */,
-				BF1E893A19F4176B00B0B687 /* SupernovaTests */,
-				BF1E892519F4176B00B0B687 /* Products */,
+				BF8112D01B823E950005FA4D /* Supernova */,
+				BF8112CF1B823E950005FA4D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BF1E892519F4176B00B0B687 /* Products */ = {
+		BF8112CF1B823E950005FA4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF1E892419F4176B00B0B687 /* Supernova.app */,
-				BF1E893719F4176B00B0B687 /* SupernovaTests.xctest */,
+				BF8112CE1B823E950005FA4D /* Supernova */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF1E892619F4176B00B0B687 /* Supernova */ = {
+		BF8112D01B823E950005FA4D /* Supernova */ = {
 			isa = PBXGroup;
 			children = (
-				BF1E895419F429C400B0B687 /* View */,
-				BF1E892B19F4176B00B0B687 /* AppDelegate.h */,
-				BF1E892C19F4176B00B0B687 /* AppDelegate.m */,
-				BF1E892E19F4176B00B0B687 /* Images.xcassets */,
-				BF1E893019F4176B00B0B687 /* MainMenu.xib */,
-				BF1E892719F4176B00B0B687 /* Supporting Files */,
+				BF8112E11B82414B0005FA4D /* Memory */,
+				BF8112E01B8240F50005FA4D /* Render */,
+				BF8112D91B8240960005FA4D /* nedmalloc */,
+				BF8112D11B823E950005FA4D /* main.cpp */,
 			);
 			path = Supernova;
 			sourceTree = "<group>";
 		};
-		BF1E892719F4176B00B0B687 /* Supporting Files */ = {
+		BF8112D91B8240960005FA4D /* nedmalloc */ = {
 			isa = PBXGroup;
 			children = (
-				BF1E892819F4176B00B0B687 /* Info.plist */,
-				BF1E892919F4176B00B0B687 /* main.m */,
+				BF8112DA1B8240960005FA4D /* License.txt */,
+				BF8112DB1B8240960005FA4D /* malloc.c.h */,
+				BF8112DC1B8240960005FA4D /* nedmalloc.c */,
+				BF8112DD1B8240960005FA4D /* nedmalloc.h */,
+				BF8112DE1B8240960005FA4D /* Readme.txt */,
 			);
-			name = "Supporting Files";
+			path = nedmalloc;
 			sourceTree = "<group>";
 		};
-		BF1E893A19F4176B00B0B687 /* SupernovaTests */ = {
+		BF8112E01B8240F50005FA4D /* Render */ = {
 			isa = PBXGroup;
 			children = (
-				BF1E893D19F4176B00B0B687 /* SupernovaTests.m */,
-				BF1E893B19F4176B00B0B687 /* Supporting Files */,
 			);
-			path = SupernovaTests;
+			name = Render;
 			sourceTree = "<group>";
 		};
-		BF1E893B19F4176B00B0B687 /* Supporting Files */ = {
+		BF8112E11B82414B0005FA4D /* Memory */ = {
 			isa = PBXGroup;
 			children = (
-				BF1E893C19F4176B00B0B687 /* Info.plist */,
+				BF8112E21B8241F80005FA4D /* SupernovaMemoryNedPooling.h */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BF1E895419F429C400B0B687 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BF1E895519F42A6600B0B687 /* OSXOpenGLView.h */,
-				BF1E895619F42A6600B0B687 /* OSXOpenGLView.m */,
-			);
-			name = View;
+			name = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF1E892319F4176B00B0B687 /* Supernova */ = {
+		BF8112CD1B823E950005FA4D /* Supernova */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF1E894119F4176B00B0B687 /* Build configuration list for PBXNativeTarget "Supernova" */;
+			buildConfigurationList = BF8112D51B823E950005FA4D /* Build configuration list for PBXNativeTarget "Supernova" */;
 			buildPhases = (
-				BF1E892019F4176B00B0B687 /* Sources */,
-				BF1E892119F4176B00B0B687 /* Frameworks */,
-				BF1E892219F4176B00B0B687 /* Resources */,
+				BF8112CA1B823E950005FA4D /* Sources */,
+				BF8112CB1B823E950005FA4D /* Frameworks */,
+				BF8112CC1B823E950005FA4D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -141,125 +116,54 @@
 			);
 			name = Supernova;
 			productName = Supernova;
-			productReference = BF1E892419F4176B00B0B687 /* Supernova.app */;
-			productType = "com.apple.product-type.application";
-		};
-		BF1E893619F4176B00B0B687 /* SupernovaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF1E894419F4176B00B0B687 /* Build configuration list for PBXNativeTarget "SupernovaTests" */;
-			buildPhases = (
-				BF1E893319F4176B00B0B687 /* Sources */,
-				BF1E893419F4176B00B0B687 /* Frameworks */,
-				BF1E893519F4176B00B0B687 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF1E893919F4176B00B0B687 /* PBXTargetDependency */,
-			);
-			name = SupernovaTests;
-			productName = SupernovaTests;
-			productReference = BF1E893719F4176B00B0B687 /* SupernovaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = BF8112CE1B823E950005FA4D /* Supernova */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BF1E891C19F4176B00B0B687 /* Project object */ = {
+		BF8112C61B823E950005FA4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Jimmy;
 				TargetAttributes = {
-					BF1E892319F4176B00B0B687 = {
-						CreatedOnToolsVersion = 6.0.1;
-					};
-					BF1E893619F4176B00B0B687 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = BF1E892319F4176B00B0B687;
+					BF8112CD1B823E950005FA4D = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = BF1E891F19F4176B00B0B687 /* Build configuration list for PBXProject "Supernova" */;
+			buildConfigurationList = BF8112C91B823E950005FA4D /* Build configuration list for PBXProject "Supernova" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = BF1E891B19F4176B00B0B687;
-			productRefGroup = BF1E892519F4176B00B0B687 /* Products */;
+			mainGroup = BF8112C51B823E950005FA4D;
+			productRefGroup = BF8112CF1B823E950005FA4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF1E892319F4176B00B0B687 /* Supernova */,
-				BF1E893619F4176B00B0B687 /* SupernovaTests */,
+				BF8112CD1B823E950005FA4D /* Supernova */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		BF1E892219F4176B00B0B687 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF1E892F19F4176B00B0B687 /* Images.xcassets in Resources */,
-				BF1E893219F4176B00B0B687 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF1E893519F4176B00B0B687 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		BF1E892019F4176B00B0B687 /* Sources */ = {
+		BF8112CA1B823E950005FA4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1E892D19F4176B00B0B687 /* AppDelegate.m in Sources */,
-				BF1E895719F42A6600B0B687 /* OSXOpenGLView.m in Sources */,
-				BF1E892A19F4176B00B0B687 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF1E893319F4176B00B0B687 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF1E893E19F4176B00B0B687 /* SupernovaTests.m in Sources */,
+				BF8112D21B823E950005FA4D /* main.cpp in Sources */,
+				BF8112DF1B8240960005FA4D /* nedmalloc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BF1E893919F4176B00B0B687 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF1E892319F4176B00B0B687 /* Supernova */;
-			targetProxy = BF1E893819F4176B00B0B687 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BF1E893019F4176B00B0B687 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF1E893119F4176B00B0B687 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		BF1E893F19F4176B00B0B687 /* Debug */ = {
+		BF8112D31B823E950005FA4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,11 +180,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -293,14 +198,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		BF1E894019F4176B00B0B687 /* Release */ = {
+		BF8112D41B823E950005FA4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,115 +222,59 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		BF1E894219F4176B00B0B687 /* Debug */ = {
+		BF8112D61B823E950005FA4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Supernova/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BF1E894319F4176B00B0B687 /* Release */ = {
+		BF8112D71B823E950005FA4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Supernova/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		BF1E894519F4176B00B0B687 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SupernovaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supernova.app/Contents/MacOS/Supernova";
-			};
-			name = Debug;
-		};
-		BF1E894619F4176B00B0B687 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SupernovaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supernova.app/Contents/MacOS/Supernova";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF1E891F19F4176B00B0B687 /* Build configuration list for PBXProject "Supernova" */ = {
+		BF8112C91B823E950005FA4D /* Build configuration list for PBXProject "Supernova" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1E893F19F4176B00B0B687 /* Debug */,
-				BF1E894019F4176B00B0B687 /* Release */,
+				BF8112D31B823E950005FA4D /* Debug */,
+				BF8112D41B823E950005FA4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF1E894119F4176B00B0B687 /* Build configuration list for PBXNativeTarget "Supernova" */ = {
+		BF8112D51B823E950005FA4D /* Build configuration list for PBXNativeTarget "Supernova" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1E894219F4176B00B0B687 /* Debug */,
-				BF1E894319F4176B00B0B687 /* Release */,
+				BF8112D61B823E950005FA4D /* Debug */,
+				BF8112D71B823E950005FA4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF1E894419F4176B00B0B687 /* Build configuration list for PBXNativeTarget "SupernovaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF1E894519F4176B00B0B687 /* Debug */,
-				BF1E894619F4176B00B0B687 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BF1E891C19F4176B00B0B687 /* Project object */;
+	rootObject = BF8112C61B823E950005FA4D /* Project object */;
 }

@@ -5,23 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>93BCD51E-3FB9-4256-BA32-CE85A6D96E14</string>
+	<string>FECB3C02-6189-438F-9235-E6D63E058F09</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Supernova</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>56AC5322DA52486FDD27D8D8970613128D2C27CE</key>
-		<string>https://github.com/visperc/Supernova.git</string>
+		<string>https://github.com/visperc/Supernova</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Supernova/Supernova.xcodeproj</string>
+	<string>Supernova/Supernova.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>56AC5322DA52486FDD27D8D8970613128D2C27CE</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/visperc/Supernova.git</string>
+	<string>https://github.com/visperc/Supernova</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>56AC5322DA52486FDD27D8D8970613128D2C27CE</string>
 			<key>IDESourceControlWCCName</key>
-			<string>viper</string>
+			<string>Supernova</string>
 		</dict>
 	</array>
 </dict>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF1E892319F4176B00B0B687"
-               BuildableName = "Supernova.app"
+               BlueprintIdentifier = "BF8112CD1B823E950005FA4D"
+               BuildableName = "Supernova"
                BlueprintName = "Supernova"
-               ReferencedContainer = "container:Supernova.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF1E893619F4176B00B0B687"
-               BuildableName = "SupernovaTests.xctest"
-               BlueprintName = "SupernovaTests"
                ReferencedContainer = "container:Supernova.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,22 +28,12 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF1E893619F4176B00B0B687"
-               BuildableName = "SupernovaTests.xctest"
-               BlueprintName = "SupernovaTests"
-               ReferencedContainer = "container:Supernova.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF1E892319F4176B00B0B687"
-            BuildableName = "Supernova.app"
+            BlueprintIdentifier = "BF8112CD1B823E950005FA4D"
+            BuildableName = "Supernova"
             BlueprintName = "Supernova"
             ReferencedContainer = "container:Supernova.xcodeproj">
          </BuildableReference>
@@ -72,11 +48,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF1E892319F4176B00B0B687"
-            BuildableName = "Supernova.app"
+            BlueprintIdentifier = "BF8112CD1B823E950005FA4D"
+            BuildableName = "Supernova"
             BlueprintName = "Supernova"
             ReferencedContainer = "container:Supernova.xcodeproj">
          </BuildableReference>
@@ -90,11 +67,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF1E892319F4176B00B0B687"
-            BuildableName = "Supernova.app"
+            BlueprintIdentifier = "BF8112CD1B823E950005FA4D"
+            BuildableName = "Supernova"
             BlueprintName = "Supernova"
             ReferencedContainer = "container:Supernova.xcodeproj">
          </BuildableReference>
