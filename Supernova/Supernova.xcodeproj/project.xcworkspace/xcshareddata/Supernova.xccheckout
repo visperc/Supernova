@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FECB3C02-6189-438F-9235-E6D63E058F09</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Supernova</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>56AC5322DA52486FDD27D8D8970613128D2C27CE</key>
 		<string>https://github.com/visperc/Supernova</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Supernova/Supernova.xcodeproj/project.xcworkspace</string>
+	<string>Supernova/Supernova.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>56AC5322DA52486FDD27D8D8970613128D2C27CE</key>
